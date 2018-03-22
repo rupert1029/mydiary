@@ -1,2 +1,4 @@
 # My Diary
    Nowadays, people are fun of doing something memorable such as vacation, picnic, school activities, family bonding and etc. Aside from capturing photos of those certain events, why not wrote it in your diaries, not literal diaries, but an mobile application where you can save your unforgettable memories immediately without using a pen and paper.
+   
+   This application called "My Diary" is an efficient way in saving your unforgettable memories in a certain day. It allows you to journal your activities by just typing it on your mobile phones. Aside from typing it letter by letter, you can also add photos of that event as part of your journal. This mobile diary app help you to make your own personal journal of daily events, appointments, secrets and feelings. It also provides a lot of social network features connecting you to the world. It provides a very easy to use interface that helps the user understand easily what this application is all about.
