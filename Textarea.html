@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diary</title>
+	<link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
+	<link rel = "stylesheet" href = "font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<script type = "text/javascript" src = "ckeditor/ckeditor/ckeditor.js"></script>
+	<script type = "text/javascript" src = "bootstrap/js/jquery-slim.min.js"></script>
+	<script type = "text/javascript" src = "bootstrap/js/popper.min.js"></script>
+	<script type = "text/javascript" src = "bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+		<!-- Navigations -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+		  <a class="navbar-brand mb-0" style="font-size:30px; color:white">MY DIARY</a>
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link fa fa-home" href="index.html">Home<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link fa fa-book" href="Diary.html">My Diaries<span class="sr-only">(current)</span></a>
+		      </li>
+		    </ul>
+		</nav>
+    
+<br>	
+		
+		<!-- Text Area -->
+	<div class="form-group container-fluid">	
+		<textarea class="form-control" cols="100" rows="1" placeholder="Enter title"></textarea>
+		<textarea class="form-control "cols="100" rows="13" placeholder="Enter title" name="text"></textarea>		
+    </div>
+	<script>
+		CKEDITOR.replace('text')
+	</script>
+		<!-- Save Button -->
+		<center><a href="#" class="fa fa-save" style="font-size:30px; color:black">Save</a></center>
+
+<br>
+		
+<!-- Icons -->
+	<div class="bg-dark">
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+		<button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+			<a href="https://www.twitter.com" class="nav-link"><i class="fa fa-twitter" style="font-size:20px; color:white"></i></a>
+		</button>
+		</li>
+		<li class="nav-item">
+		<button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+			<a href="https://www.facebook.com" class="nav-link"><i class="fa fa-facebook-square" style="font-size:20px; color:white"></i></a>
+		</li>
+		</li>
+		<li class="nav-item">
+		<button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="YouTube">
+			<a href="https://www.youtube.com" class="nav-link"><i class="fa fa-youtube" style="font-size:20px; color:white"></i></a>
+		</button>
+		</li>
+		<li class="nav-item">
+		<button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Instagram">
+			<a href="https://www.instagram.com" class="nav-link"><i class="fa fa-instagram" style="font-size:20px; color:white"></i></a>
+		</button>
+		</li>
+		<li class="nav-item">
+		<button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Google">
+			<a href="https://www.google.com" class="nav-link"><i class="fa fa-google" style="font-size:20px; color:white"></i></a>
+		</button>
+		</li>
+	</ul>	
+	</div>				
+		
+</body>
+</html>
